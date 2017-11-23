@@ -1227,3 +1227,43 @@ footer {
 .profile-tab a {
   margin: 1em;
 }
+
+.shot-item {
+  padding: 0;
+}
+
+.shot-item h2{
+  padding: 0.5em;
+  color: #4676fa;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.portfolio-item-info p {
+  padding: 1em;
+}
+
+.portfolio-item-info .links{
+  padding: 0.25em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4676fa;
+  transition: all 1s;
+}
+
+.portfolio-item-info .links a {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #FFF;
+  transition: all 0.5s;
+}
+
+.portfolio-item-info .links a .fa-github {
+  font-size: 1.7em;
+}
+
+.portfolio-item-info .links a:hover {
+  color: #000;
+}

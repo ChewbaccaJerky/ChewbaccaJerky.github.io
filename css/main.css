@@ -1220,8 +1220,17 @@ footer {
   }
 }
 
+
+
+.profile-tab .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 .profile-tab img{
-  height: 25em;
+  height: 20em;
 }
 
 .profile-tab a {

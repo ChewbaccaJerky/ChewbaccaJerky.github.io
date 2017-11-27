@@ -1220,22 +1220,44 @@ footer {
   }
 }
 
-
+/* ==========================================================================
+   About Me Style
+   ========================================================================== */
 
 .profile-tab .info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 
-.profile-tab img{
+.profile-tab .img {
+  overflow: hidden;
+}
+
+.profile-tab .img img{
+  transform: scale(1.5);
+  transform-origin: top;
   height: 20em;
 }
 
 .profile-tab a {
   margin: 1em;
 }
+
+.blurb {
+  text-align: left;
+}
+
+.blurb span {
+  font-weight: bold;
+  font-style: italic;
+  color: #4676fa;
+}
+
+/* ==========================================================================
+   Portfolio Style
+   ========================================================================== */
 
 .shot-item {
   padding: 0;
@@ -1269,10 +1291,21 @@ footer {
   transition: all 0.5s;
 }
 
+
+
 .portfolio-item-info .links a .fa-github {
   font-size: 1.7em;
 }
 
 .portfolio-item-info .links a:hover {
   color: #000;
+}
+
+
+/* ==========================================================================
+   Footer Additional Style
+   ========================================================================== */
+
+.social-icons ul .credit {
+  color: #FFF;
 }

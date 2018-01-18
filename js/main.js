@@ -1,11 +1,11 @@
 /* 
    CounterUp
    ========================================================================== */
-    jQuery(document).ready(function( $ ) {
-      $('.counter').counterUp({
-        time: 500
-      });
-    });
+    // jQuery(document).ready(function( $ ) {
+    //   $('.counter').counterUp({
+    //     time: 500
+    //   });
+    // });
 
 /* 
    MixitUp
